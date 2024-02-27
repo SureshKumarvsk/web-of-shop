@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      project
+    </title>
+  </head>
+  <body>
+    <h1>Welcome to the Little Taco Shop</h1>
+    <ul>
+      <li>
+        <a href="#LTS">About LTS</a>
+      </li>
+      <li>
+        <a href="#MENU">Our Menu</a>
+      </li>
+      <li>
+        <a href="storehours.html">Store Hours</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact Me</a>
+      </li>
+    </ul>
+    <img src="download tacola.jpg" alt="my picture"> 
+    <hr>
+    <section id="LTS">
+      <h2>About LTS</h2>
+      <p>
+        LTS was founded in 2022, our shop was built from 
+        love of tacoss. we hope our shop adds a unique and inresring place to our little town.
+      </p>
+    </section>
+    <aside>
+      <h3>Taco Trivia</h3>
+      <details>
+        <summary>when did the tacos first founded?</summary>
+        <p>
+          jeffrey M.Pilcher, taco historian and professor of historian and professor of history founded that tacola
+        </p>
+      </details>
+    </aside>
+    <hr>
+    <section id="MENU">
+      <h2>MENU</h2>
+      <table>
+        <thead >Our Tacos</thead>
+        <th source="col">tacos</th>
+        <th source="col">qty</th>
+        <th source="col">Price</th>
+        <tr>
+          <th source="row">Crunchy</th>
+          <dl>
+            <td> 1</td>
+            <td>$ 1.50</td>
+            <td> 2</td>
+            <td>$ 2.50</td>
+            <td> 3</td>
+            <td>$ 3.50</td>
+          </dl>
+        </tr>
+        <tr>
+          <th source="row">Soft</th>
+          <td>1</td>
+          <td>$2.00</td>
+          <td>2</td>
+          <td>$3.50</td>
+          <td>3</td>
+          <td>$4.50</td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+    <br>
+    <a href="#">Back to top</a>
+  </body>
+</html>
+//storehouse.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>STOREHOURS</title>
+  </head>
+  <body>
+    <h1>The Little Taco Shop Hours</h1>
+    <ul>
+      <li><a href="pro.html">Home</a></li>
+      <li><a href="pro.html#LTS">About LTS</a></li>
+      <li><a href="pro.html#MENU">Our Menu</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <img src="shop hours.jpg" alt=" my picture" widht="1200" height="360">
+    <p>A Tray of Tasty  Tacos</p>
+    <hr>
+    <p>
+      We are open 7 days a Week!
+      <br>
+    <dl>
+      <dt>Sunday-Thursday</dt>
+      <dd>11 am-9am</dd>
+      <dt>Friday-saturday</dt>
+      <dd>11am-11pm</dd>
+    </dl>
+    <br>
+    <a href="#">Back to Top</a>
+    <hr>
+    <p>copyright The Little Shop</p>
+    </p>
+  </body>
+</html>
+//contact.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      contact
+    </title>
+  </head>
+  <body>
+    <h1>contact us</h1>
+    <ul>
+      <li><a href="pro.html">Home</a></li>
+      <li><a href="pro.html#LTS">About LTS</a></li>
+      <li><a href="pro.html#MENU">Our Menu</a></li>
+      <li><a href="storehours.html">Store Hours</a></li>
+    </ul>
+    <img src="contact.jpg" alt=" my picture" widht="1000" height="360">
+    <p> Little Taco Shop Tacos</p>
+    <hr>
+    <h2>Our Contact form</h2>
+    <form action="https://httpbin.org/post" method="post">
+      <fieldset>
+        <legend>Send Us A Message</legend>
+        <p>
+          <label for="fullname">Name</label>
+          <input type="text" name="Name" id="fullname" placeholder="Sureshkumar" required>
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input type="email" name="Mailid" id="email" placeholder="xyz@gmail.com">
+        </p>
+        <p>
+          <label for="Your message">Your Message</label>
+        </p>
+        <textarea name="message" id="Your message" cols="30" rows="10">
+        </textarea placeholder="Enter your text here">
+        <p><button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </p>
+      </fieldset>
+    </form>
+    <h2>Our Location</h2>
+    <address>555 Taco Temptation Lane,Suite T
+      <br>
+      kansas City,MO 55555-55555
+    </address>
+  </body>
+</html>
